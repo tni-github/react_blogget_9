@@ -41,7 +41,7 @@ const rootReducer = (state = initialState, action) => {
       };
 
     case DELETE_TOKEN:
-      setToken(action.token);
+      setToken('');
       return {
         ...state,
         token: '',
